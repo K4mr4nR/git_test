@@ -1,0 +1,19 @@
+### Get all category items
+GET http://localhost:3000/products/items
+
+### Get all specific item details
+GET http://localhost:3000/products/Laptop
+
+### Get all item details
+GET http://localhost:3000/products/all
+
+### Send IDs of items to buy and amount charged is returned
+POST http://localhost:3000/products/purchase
+content-type: application/json
+
+{
+  "ids": [1,8,9]
+}
+
+
+
